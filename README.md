@@ -20,6 +20,7 @@ How to use this (Setup Instructions):
 7. Provide your server details in "env_variables" available in "centos" directory.
 
 8. Deploy the ssh key from master node to other nodes for password less authentication.
+
      ssh-keygen
      
      Copy the public key to all nodes including your master node and make sure you are able to login into any nodes without password.
