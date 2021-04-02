@@ -4,12 +4,12 @@ This repository has set of ansible playbooks created to setup a kubernetes clust
 How to use this (Setup Instructions):
 1. Make your servers ready (one master node and multiple worker nodes).
 
-      Hostname                   IP             CPUs     RAM      OS          Role
-      kubernetes-master    192.168.122.171        2      2 GB     CentOs-7    Master-Node
-      kubernetes-node1     192.168.122.158        2      2 GB     CentOs-7    Worker-Node
-      kubernetes-node2     192.168.122.225        2      2 GB     CentOs-7    Worker-Node
+            Hostname                   IP             CPUs     RAM      OS          Role
+            kubernetes-master    192.168.122.171        2      2 GB     CentOs-7    Master-Node
+            kubernetes-node1     192.168.122.158        2      2 GB     CentOs-7    Worker-Node
+            kubernetes-node2     192.168.122.225        2      2 GB     CentOs-7    Worker-Node
       
-      Note : Above Lab Setup is According to my Laptop Configuration. You can Change as per Your requirements.
+            Note : Above Lab Setup is According to my Laptop Configuration. You can Change as per Your requirements.
        
 
 2. Make an entry of your each hosts in /etc/hosts file for name resolution.
